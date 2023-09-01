@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    @apply text-slate-800
+}
+
+h1{
+    @apply text-3xl font-bold text-slate-800
+}
+
+.nav-link{
+    @apply flex gap-2 font-semibold py-2 active:bg-slate-300 justify-center items-center rounded-lg hover:bg-slate-200
+}
+
+.label{
+    @apply  font-semibold flex flex-col gap-2 
+}
+.btn{
+    @apply bg-slate-200 font-bold text-lg px-3 py-1 hover:bg-slate-300  rounded-lg
+}
+
+
+/*file uploader css uploadcare*/
+
+input{
+    @apply bg-slate-100 px-2 py-2 shadow-inner border-dotted border-2 border-slate-200 outline-none
+}
+
+
+.my-config {
+    --l10n-upload-files: 'Add Photos of Product';
+    --darkmode: 0;
+    --h-accent: 223;
+    --s-accent: 100%;
+    --l-accent: 61%;
+  }
